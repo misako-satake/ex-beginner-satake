@@ -6,10 +6,10 @@
 </head>
 <body>
 税抜き価格<br>
-<span th:text="${#numbers.formatInteger(sum,1,'COMMA')}"></span><br>
+<span th:text="${#numbers.formatInteger(application.sum,1,'COMMA')}"></span><br>
 
 税込み価格<br>
-<span th:text="${#numbers.formatInteger(sum_tax,1,'COMMA')}"></span>
+<span th:text="${#numbers.formatInteger(application.sum_tax,1,'COMMA')}"></span>
 
 </form>
 </body>
